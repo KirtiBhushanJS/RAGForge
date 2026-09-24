@@ -1,0 +1,371 @@
+[
+  {
+    "id": 1,
+    "question": "When was Globex founded and where is its headquarters?",
+    "expected_answer": "Globex was founded in 2012 and its headquarters are in Rotterdam, the Netherlands.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "How many people does Globex employ?",
+    "expected_answer": "Globex employs 4,200 people.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "How many trucks does Globex operate?",
+    "expected_answer": "Globex operates a fleet of 320 trucks.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is Globex's average on-time delivery rate?",
+    "expected_answer": "The average on-time delivery rate is 96 percent.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "How many distribution centers does Globex have?",
+    "expected_answer": "Globex has 14 distribution centers across eight European countries.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What PPE must warehouse staff wear at Globex?",
+    "expected_answer": "Hard hats, steel-toe boots, and high-visibility vests.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "How often are safety drills held at Globex warehouses?",
+    "expected_answer": "A safety drill is held every month.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is Globex's target share of electric trucks by 2030?",
+    "expected_answer": "Globex targets 40 percent of its fleet to be electric by 2030.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What renewable source do Globex distribution centers use?",
+    "expected_answer": "Distribution centers run partly on solar panels.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "How quickly does Globex customer service reply?",
+    "expected_answer": "The team replies within 24 hours to every request.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What is Globex's claim resolution rate and window?",
+    "expected_answer": "99.2 percent of claims are resolved within 14 days.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "How long is Globex's new-driver training program?",
+    "expected_answer": "New drivers complete a six-week training program.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What is the referral bonus at Globex?",
+    "expected_answer": "The referral bonus is 1,500 EUR.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "How many hiring intakes does Globex run per year?",
+    "expected_answer": "Globex runs two hiring intakes per year.",
+    "expected_sources": [
+      {
+        "document": "globex_operations_handbook.pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What revenue did Aurora Energy report for 2025?",
+    "expected_answer": "Aurora reported revenue of 2.4 billion EUR in 2025.",
+    "expected_sources": [
+      {
+        "document": "aurora_energy_report_2025.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Where is Aurora Energy headquartered?",
+    "expected_answer": "Aurora Energy is headquartered in Oslo, Norway.",
+    "expected_sources": [
+      {
+        "document": "aurora_energy_report_2025.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "What is Aurora's wind generation capacity?",
+    "expected_answer": "Aurora has 850 MW of installed wind capacity.",
+    "expected_sources": [
+      {
+        "document": "aurora_energy_report_2025.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "What is Aurora's hydro power capacity?",
+    "expected_answer": "Aurora has 1,100 MW of installed hydro capacity.",
+    "expected_sources": [
+      {
+        "document": "aurora_energy_report_2025.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "How many households does Aurora Energy serve?",
+    "expected_answer": "Aurora serves 1.9 million households.",
+    "expected_sources": [
+      {
+        "document": "aurora_energy_report_2025.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "What share of Aurora customers renew their subscriptions each year?",
+    "expected_answer": "About 62 percent of customers renew each year.",
+    "expected_sources": [
+      {
+        "document": "aurora_energy_report_2025.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "How much is Aurora investing in smart meters?",
+    "expected_answer": "Aurora is investing 310 million EUR in smart meters.",
+    "expected_sources": [
+      {
+        "document": "aurora_energy_report_2025.pdf",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "What share of the service territory will have smart meters by 2027?",
+    "expected_answer": "The rollout covers 40 percent of the territory by 2027.",
+    "expected_sources": [
+      {
+        "document": "aurora_energy_report_2025.pdf",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "What is Aurora's 2030 emissions reduction target?",
+    "expected_answer": "Aurora targets a 55 percent emissions reduction by 2030 compared with 2020.",
+    "expected_sources": [
+      {
+        "document": "aurora_energy_report_2025.pdf",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "What emissions reduction has Aurora achieved compared with 2020?",
+    "expected_answer": "Aurora reduced emissions by 18 percent compared with 2020.",
+    "expected_sources": [
+      {
+        "document": "aurora_energy_report_2025.pdf",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "How many people does Aurora Energy employ?",
+    "expected_answer": "Aurora employs 1,750 people.",
+    "expected_sources": [
+      {
+        "document": "aurora_energy_report_2025.pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "How many scholarships does Aurora award each year?",
+    "expected_answer": "Aurora awards 60 scholarships per year in energy technology.",
+    "expected_sources": [
+      {
+        "document": "aurora_energy_report_2025.pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "What is deep learning a subset of?",
+    "expected_answer": "Deep learning is a subset of machine learning.",
+    "expected_sources": [
+      {
+        "document": "deep_learning_primer.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Name two activation functions used in neural networks.",
+    "expected_answer": "ReLU and sigmoid are example activation functions.",
+    "expected_sources": [
+      {
+        "document": "deep_learning_primer.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "What algorithm trains networks by propagating error backwards?",
+    "expected_answer": "Networks are trained with backpropagation.",
+    "expected_sources": [
+      {
+        "document": "deep_learning_primer.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "What does the learning rate control?",
+    "expected_answer": "The learning rate controls step size during gradient descent.",
+    "expected_sources": [
+      {
+        "document": "deep_learning_primer.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "List three regularization methods that reduce overfitting.",
+    "expected_answer": "Dropout, L2 regularization, and early stopping.",
+    "expected_sources": [
+      {
+        "document": "deep_learning_primer.pdf",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "What network type uses kernels and pooling for images?",
+    "expected_answer": "Convolutional neural networks (CNNs) use kernels and pooling.",
+    "expected_sources": [
+      {
+        "document": "deep_learning_primer.pdf",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "What mechanism do transformers rely on?",
+    "expected_answer": "Transformers rely on the attention mechanism.",
+    "expected_sources": [
+      {
+        "document": "deep_learning_primer.pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "What is the current share price of Globex?",
+    "expected_answer": "Not covered by the provided documents - the correct answer is 'I don't know based on the provided documents.'",
+    "expected_sources": []
+  }
+]

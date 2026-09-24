@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "example": true,
+    "question": "What is the return policy described in the manual?",
+    "expected_answer": "Example only - replace with a real question once your PDF set is final.",
+    "expected_sources": [
+      { "document": "your_first_pdf.pdf", "page": 3 }
+    ]
+  },
+  {
+    "id": 0,
+    "example": true,
+    "question": "What does Section 4 say about license renewals?",
+    "expected_answer": "Example only - replace with a real question once your PDF set is final.",
+    "expected_sources": [
+      { "document": "another_pdf.pdf", "page": 7 }
+    ]
+  }
+]
