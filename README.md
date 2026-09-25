@@ -11,7 +11,8 @@ The project uses a collection of smartphone user manuals from Samsung, Motorola,
 The project uses **14 smartphone manuals**, which is within the assignment requirement of 10–20 PDFs.
 
 > **Note:** The original manufacturer PDFs are not stored in this public repository. Download the manuals from the official manufacturer sources below and place them locally in `data/documents/`.
-
+> **Copyright & Document Notice:**  
+> The smartphone user manuals referenced in this project are the property of their respective manufacturers, including Samsung, Motorola, and OnePlus. The original PDF documents are not redistributed in this repository. This project only provides links to the respective manufacturers' official sources so that users can obtain the documents directly. The documents are used locally for educational and research purposes as part of the RAG evaluation project.
 ### Samsung
 
 | # | Model | Official Manual |
@@ -39,8 +40,6 @@ The project uses **14 smartphone manuals**, which is within the assignment requi
 | 2 | OnePlus 9 | [Official OnePlus Manual](https://service.oneplus.com/in/user-manual#/detail?equipmentModelId=924926b0-a0ce-11ef-9811-fa168f20b2a1) |
 | 3 | OnePlus 13 | [Official OnePlus Manual](https://service.oneplus.com/in/user-manual#/detail?equipmentModelId=1875066204395962370) |
 | 4 | OnePlus 15 | [Official OnePlus Manual](https://service.oneplus.com/in/user-manual#/detail?equipmentModelId=1979231416971198465) |
-
-> **Source note:** The links above are reproduced from the provided document containing the official manual URLs. The OnePlus 9 and OnePlus 13 entries were supplied with the same URL in that document; the project should verify the correct model-specific page before final ingestion.
 
 ## Local Document Setup
 
