@@ -19,7 +19,7 @@ The project uses **14 smartphone manuals**, which is within the assignment requi
 | 1 | Galaxy A57 5G | [Official Samsung PDF](https://downloadcenter.samsung.com/content/UM/202603/20260326125812922/SM-A576B_A376_UG_EU_16_Eng_Rev.1.0_260126.pdf) |
 | 2 | Galaxy S25 Ultra | [Official Samsung PDF](https://downloadcenter.samsung.com/content/UM/202509/20250929135046516/SM-S93X_S92X_UG_EU_16_Eng_Rev.1.0_250929.pdf) |
 | 3 | Galaxy S26 Ultra | [Official Samsung PDF](https://downloadcenter.samsung.com/content/UM/202602/20260227095338477/SM-S94X_UG_EU_16_Eng_Rev.1.0_260220.pdf) |
-| 4 | Galaxy Z Flip7 | [Official Samsung PDF] (https://downloadcenter.samsung.com/content/UM/202507/20250711090617100/SM-F766B_F761B_UG_EU_16_Eng_Rev.1.0_250709.pdf) |
+| 4 | Galaxy Z Flip7 | [Official Samsung PDF](https://downloadcenter.samsung.com/content/UM/202507/20250711090617100/SM-F766B_F761B_UG_EU_16_Eng_Rev.1.0_250709.pdf) | 
 | 5 | Galaxy Z Fold8 Ultra | [Official Samsung PDF](https://downloadcenter.samsung.com/content/UM/202607/20260723101548322/SM-F976B_F971B_F776B_UG_EU_17_Eng_Rev.1.0_260708.pdf) |
 
 ### Motorola
