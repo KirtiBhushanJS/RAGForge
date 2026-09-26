@@ -79,17 +79,32 @@ def process_all_pdfs():
     return all_chunks
 
 
-def get_existing_point_ids():
+def get_existing_point_ids(chunks):
+    """
+    Check which chunk IDs already exist in Qdrant.
+
+    This avoids scrolling through the entire Qdrant collection.
+    """
+
+    point_ids = [
+        create_point_id(chunk)
+        for chunk in chunks
+    ]
+
     existing_ids = set()
 
-    offset = None
+    # Check IDs in groups instead of using scroll()
+    CHECK_BATCH_SIZE = 100
 
-    while True:
+    for start in range(0, len(point_ids), CHECK_BATCH_SIZE):
 
-        points, offset = qdrant_client.scroll(
+        batch_ids = point_ids[
+            start:start + CHECK_BATCH_SIZE
+        ]
+
+        points = qdrant_client.retrieve(
             collection_name=COLLECTION_NAME,
-            limit=1000,
-            offset=offset,
+            ids=batch_ids,
             with_payload=False,
             with_vectors=False,
         )
@@ -97,20 +112,28 @@ def get_existing_point_ids():
         for point in points:
             existing_ids.add(str(point.id))
 
-        if offset is None:
-            break
+        print(
+            f"Checked Qdrant IDs "
+            f"{start + 1}-{min(start + CHECK_BATCH_SIZE, len(point_ids))} "
+            f"of {len(point_ids)}"
+        )
 
     return existing_ids
 
 
 def remove_already_ingested(chunks):
-    existing_ids = get_existing_point_ids()
 
-    print(f"\nExisting Qdrant points: {len(existing_ids)}")
+    existing_ids = get_existing_point_ids(chunks)
+
+    print(
+        f"\nExisting matching Qdrant points: "
+        f"{len(existing_ids)}"
+    )
 
     remaining_chunks = []
 
     for chunk in chunks:
+
         point_id = create_point_id(chunk)
 
         if point_id not in existing_ids:
@@ -118,8 +141,15 @@ def remove_already_ingested(chunks):
 
     skipped = len(chunks) - len(remaining_chunks)
 
-    print(f"Already ingested chunks skipped: {skipped}")
-    print(f"Chunks remaining to ingest: {len(remaining_chunks)}")
+    print(
+        f"Already ingested chunks skipped: "
+        f"{skipped}"
+    )
+
+    print(
+        f"Chunks remaining to ingest: "
+        f"{len(remaining_chunks)}"
+    )
 
     return remaining_chunks
 
@@ -149,7 +179,9 @@ def ingest_chunks(chunks):
 
             try:
 
-                embeddings = generate_embeddings(texts)
+                embeddings = generate_embeddings(
+                    texts
+                )
 
                 uploaded = upload_chunks(
                     batch,
@@ -179,7 +211,9 @@ def ingest_chunks(chunks):
                         f"Waiting {RATE_LIMIT_WAIT} seconds..."
                     )
 
-                    time.sleep(RATE_LIMIT_WAIT)
+                    time.sleep(
+                        RATE_LIMIT_WAIT
+                    )
 
                     print(
                         "Retrying the same batch..."
@@ -194,7 +228,9 @@ def ingest_chunks(chunks):
 
 if __name__ == "__main__":
 
-    print("🚀 Starting RAGForge ingestion...\n")
+    print(
+        "🚀 Starting RAGForge ingestion...\n"
+    )
 
     all_chunks = process_all_pdfs()
 
@@ -208,12 +244,15 @@ if __name__ == "__main__":
     if not chunks_to_ingest:
 
         print(
-            "\n🎉 All chunks are already present in Qdrant!"
+            "\n🎉 All chunks are already "
+            "present in Qdrant!"
         )
 
     else:
 
-        ingest_chunks(chunks_to_ingest)
+        ingest_chunks(
+            chunks_to_ingest
+        )
 
         print(
             "\n🎉 Ingestion completed successfully!"
@@ -224,5 +263,6 @@ if __name__ == "__main__":
     )
 
     print(
-        f"\nQdrant points: {collection_info.points_count}"
+        f"\nQdrant points: "
+        f"{collection_info.points_count}"
     )

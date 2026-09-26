@@ -68,7 +68,9 @@ def upload_chunks(chunks, embeddings):
 
     qdrant_client.upsert(
         collection_name=COLLECTION_NAME,
-        points=points
+        points=points,
+        wait=True,
+        timeout=120
     )
 
     return len(points)
