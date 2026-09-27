@@ -18,8 +18,10 @@ gemini_client = genai.Client(
 )
 
 
-EMBEDDING_MODEL = "gemini-embedding-2"
-EMBEDDING_DIMENSION = 768
+from ..config import (
+    EMBEDDING_MODEL,
+    EMBEDDING_DIMENSION
+)
 
 
 def generate_embeddings(texts):
