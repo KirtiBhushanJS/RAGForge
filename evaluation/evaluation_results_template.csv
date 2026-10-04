@@ -1,0 +1,1 @@
+question_id,experiment,top_k,chunk_size,embedding_model,question,expected_document,expected_page,retrieved_documents,retrieved_pages,generated_answer,reference_answer,retrieval_hit,answer_score,citation_correct,failure_type,failure_notes
