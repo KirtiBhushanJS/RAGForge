@@ -1,31 +1,41 @@
-question_id,category,question,expected_answer,expected_document,expected_page,notes
-Q01,direct fact,,,,,
-Q02,direct fact,,,,,
-Q03,definition,,,,,
-Q04,procedure,,,,,
-Q05,specification,,,,,
-Q06,troubleshooting,,,,,
-Q07,feature,,,,,
-Q08,compatibility,,,,,
-Q09,safety,,,,,
-Q10,settings,,,,,
-Q11,comparison,,,,,
-Q12,procedure,,,,,
-Q13,specification,,,,,
-Q14,troubleshooting,,,,,
-Q15,feature,,,,,
-Q16,direct fact,,,,,
-Q17,definition,,,,,
-Q18,procedure,,,,,
-Q19,safety,,,,,
-Q20,settings,,,,,
-Q21,comparison,,,,,
-Q22,specification,,,,,
-Q23,feature,,,,,
-Q24,troubleshooting,,,,,
-Q25,direct fact,,,,,
-Q26,procedure,,,,,
-Q27,compatibility,,,,,
-Q28,safety,,,,,
-Q29,out-of-scope,,,,,
-Q30,out-of-scope,,,,,
+question_id,category,question,expected_answer,expected_document,expected_page,test_type,pass_condition
+Q01,Screenshot,How do I take a screenshot on the Galaxy A57 5G?,Press the Side button and Volume Down simultaneously,Galaxy A57 5G,28,Answerable,Correct steps and matching source citation
+Q02,SIM,How do I insert a SIM card into the Galaxy A57 5G?,Use the SIM ejector to remove the tray place the nano SIM correctly and reinsert the tray,Galaxy A57 5G,13,Answerable,Correct steps and matching source citation
+Q03,Power,How do I force restart a frozen Galaxy A57 5G?,Press and hold the Side button and Volume Down simultaneously for more than seven seconds,Galaxy A57 5G,14,Answerable,Correct steps and matching source citation
+Q04,Charging,How do I enable fast charging on the Galaxy A57 5G?,Check the manual's charging settings instructions and report only the documented steps,Galaxy A57 5G,VERIFY,Answerable,Manual supports the answer and citation
+Q05,Data transfer,How do I transfer data from an old phone to the Galaxy A57 5G?,Use Samsung Smart Switch and follow the manual instructions for transferring data,Galaxy A57 5G,17,Answerable,Correct procedure and matching source citation
+Q06,Wi-Fi,How do I connect the Galaxy A57 5G to Wi-Fi?,Open Settings and Wi-Fi choose a network and follow the connection prompts,Galaxy A57 5G,81,Answerable,Correct procedure and matching source citation
+Q07,Battery,Where can I find battery settings on the Galaxy A57 5G?,Open Settings and select Battery,Galaxy A57 5G,96,Answerable,Correct location and matching source citation
+Q08,Security,Where does the Galaxy A57 5G manual explain fingerprint recognition?,The manual lists fingerprint recognition in the Security and privacy section,Galaxy A57 5G,103,Answerable,Correct section and matching source citation
+Q09,Updates,Where can I check for a software update on the Galaxy A57 5G?,Open Settings and select Software update,Galaxy A57 5G,121,Answerable,Correct location and matching source citation
+Q10,Screen recording,How do I record the screen on the Galaxy A57 5G?,Use the documented Screen capture and screen record instructions,Galaxy A57 5G,29,Answerable,Correct procedure and matching source citation
+Q11,Screenshot,How do I take a screenshot on the Galaxy Z Fold8 Ultra?,Press the Side button and Volume Down simultaneously,Galaxy Z Fold8 Ultra,12,Answerable,Correct steps and matching source citation
+Q12,Multitasking,Where does the Galaxy Z Fold8 Ultra manual explain using multiple apps at once?,Open the Multi window section,Galaxy Z Fold8 Ultra,66,Answerable,Correct section and matching source citation
+Q13,Wi-Fi,Which section explains Wi-Fi settings on the Galaxy Z Fold8 Ultra?,The Wi-Fi section under Connections,Galaxy Z Fold8 Ultra,84,Answerable,Correct section and matching source citation
+Q14,SIM,Where does the Galaxy Z Fold8 Ultra manual explain nano-SIM and eSIM?,The Nano-SIM card and eSIM section,Galaxy Z Fold8 Ultra,18,Answerable,Correct section and matching source citation
+Q15,Security,Where does the Galaxy Z Fold8 Ultra manual explain fingerprint recognition?,The Fingerprint recognition section under Security and privacy,Galaxy Z Fold8 Ultra,97,Answerable,Correct section and matching source citation
+Q16,Screenshot,How do I take a screenshot on the Motorola Edge 50?,Use the documented screenshot procedure in Capture your screen,Motorola Edge 50,47,Answerable,Correct steps and matching source citation
+Q17,SIM,How do I insert a SIM card into the Motorola Edge 50?,Insert the SIM tool into the tray hole place the card with gold contacts up and push the tray back in,Motorola Edge 50,4,Answerable,Correct steps and matching source citation
+Q18,Data transfer,How do I copy data from an old phone to the Motorola Edge 50?,Follow the manual procedure for copying data from the old phone,Motorola Edge 50,6,Answerable,Correct procedure and matching source citation
+Q19,Wi-Fi,How do I connect the Motorola Edge 50 to a Wi-Fi network?,Open Settings then Network and Internet then Wi-Fi and choose a network,Motorola Edge 50,166,Answerable,Correct steps and matching source citation
+Q20,Battery,How do I turn on Battery Saver on the Motorola Edge 50?,Open Quick Settings and tap Battery Saver,Motorola Edge 50,267,Answerable,Correct steps and matching source citation
+Q21,Battery,What settings can help extend battery life on the Motorola Edge 50?,Use the documented battery-saving options such as Adaptive Battery and Battery Saver,Motorola Edge 50,264,Answerable,Recommendations supported by manual
+Q22,Troubleshooting,What should I do if the Motorola Edge 50 will not turn on?,Consult the Phone won't turn on troubleshooting section,Motorola Edge 50,336,Answerable,Advice grounded in cited troubleshooting section
+Q23,Connectivity,How do I connect Bluetooth devices to the Motorola Edge 50?,Open Settings and Connected devices then Bluetooth and follow the pairing instructions,Motorola Edge 50,179,Answerable,Correct procedure and matching source citation
+Q24,Security,Where does the Motorola Edge 50 explain fingerprint security?,Open Security and privacy then Use fingerprint security,Motorola Edge 50,297,Answerable,Correct section and matching source citation
+Q25,SIM,How do I insert a SIM card into the OnePlus 8?,Use the SIM ejector to remove the tray place the nano SIM in the tray and reinsert it,One Plus 8,13,Answerable,Correct steps and matching source citation
+Q26,Wi-Fi,How do I connect the OnePlus 8 to a password-protected Wi-Fi network?,Open Settings then Wi-Fi and internet then Wi-Fi select the network enter its password and connect,One Plus 8,33,Answerable,Correct steps and matching source citation
+Q27,Power,How do I turn on the OnePlus 8?,Press and hold the power button for a few seconds,One Plus 8,13,Answerable,Correct instruction and matching source citation
+Q28,Power,How do I take a screenshot on the OnePlus 8?,Press and hold the power button and Volume Down simultaneously,One Plus 8,17,Answerable,Correct steps and matching source citation
+Q29,Battery,What can I do to reduce battery consumption on the OnePlus 8?,Turn off the screen when unused enable Battery Saver when the battery is low disable unused Bluetooth and Wi-Fi dim the screen and shorten screen timeout,One Plus 8,14,Answerable,Advice supported by manual
+Q30,Power,How do I restart a OnePlus 9?,Use the power button to open the power menu and select Restart,One Plus 9,12,Answerable,Correct procedure and matching source citation
+Q31,Wi-Fi,How do I connect the OnePlus 9 to a Wi-Fi network?,Open Settings then Wi-Fi and Network then Wi-Fi and choose the network,One Plus 9,29,Answerable,Correct procedure and matching source citation
+Q32,SIM,How do I insert a SIM card into the OnePlus 9?,Remove the SIM tray with the ejector place the SIM in the tray and reinsert it,One Plus 9,10,Answerable,Correct steps and matching source citation
+Q33,Model specificity,Does the Galaxy A57 5G manual say that the OnePlus 8 uses Warp Charge 30T?,The Galaxy A57 5G manual does not establish charging specifications for the OnePlus 8,Galaxy A57 5G,,Unanswerable,Must not present unsupported cross-model claims
+Q34,Unsupported specification,What is the exact battery capacity in mAh of the Motorola Edge 50?,If the manual does not state the exact capacity the assistant must say it cannot verify it from this manual,Motorola Edge 50,,Unanswerable,No invented capacity and clear limitation
+Q35,Unsupported price,What was the launch price of the Galaxy S26 Ultra in India?,The user guide does not establish the launch price,Galaxy S26 Ultra,,Unanswerable,Must not invent a price or pretend the manual contains it
+Q36,Unsupported date,On what exact date will the Galaxy A57 5G receive its next major Android update?,The manual does not establish the exact future update date,Galaxy A57 5G,,Unanswerable,Must acknowledge that the date is not documented
+Q37,Unsupported diagnosis,My phone fell into seawater and will not turn on; what exact component has failed?,The manual cannot determine the failed component from this description alone,Motorola Edge 50,,Unanswerable,Must not invent a hardware diagnosis
+Q38,Missing source,What is the Wi-Fi password for my home router?,The phone manual does not contain the user's personal router password,None,,Unanswerable,Must say the password is not available in the supplied documents
+Q39,Missing source,What is my phone's current battery health percentage?,The manual cannot provide the current live battery health of the user's device,None,,Unanswerable,Must not fabricate a live device reading
+Q40,Missing source,Will my specific phone repair be completed tomorrow by the service centre?,The manuals do not establish the status or completion time of an individual repair,None,,Unanswerable,Must explain that individual repair status is unavailable

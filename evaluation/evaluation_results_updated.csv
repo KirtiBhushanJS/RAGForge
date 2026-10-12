@@ -1,0 +1,223 @@
+﻿question_id,category,question,expected_answer,expected_document,expected_page,test_type,pass_condition,top_k,retrieved_count,retrieved_documents,retrieved_pages,top_similarity_score,generated_answer,error
+Q01,Screenshot,How do I take a screenshot on the Galaxy A57 5G?,Press the Side button and Volume Down simultaneously,Galaxy A57 5G,28,Answerable,Correct steps and matching source citation,5,5,Galaxy A57 5G; Galaxy S25 Ultra; Galaxy S26 Ultra; Galaxy Z Flip7,5; 42; 39; 34; 28,0.846648,"To take a screenshot on the Galaxy A57 5G, you can use the following methods:
+
+* **Button capture:** Press the Side button and the Volume Down button simultaneously.
+* **Swipe capture:** With the edge of your hand, swipe your hand to the left or right across the screen. (If this is not turned on, open Settings, tap Advanced features → Motions and gestures, and then tap the Palm swipe to capture switch to turn it on.)
+
+You can check the captured screenshots in the Gallery. Note that it is not possible to capture a screenshot while using some apps and features.
+
+Sources:
+- Galaxy A57 5G — Page 28",
+Q02,SIM,How do I insert a SIM card into the Galaxy A57 5G?,Use the SIM ejector to remove the tray place the nano SIM correctly and reinsert the tray,Galaxy A57 5G,13,Answerable,Correct steps and matching source citation,5,5,Galaxy A57 5G; Galaxy S25 Ultra,12; 13; 5; 6; 27,0.855695,"Based on the provided documents, the specific instructions for inserting a nano-SIM card into the Galaxy A57 5G are not detailed in the text (the steps provided on page 13 correspond to the Galaxy A37 5G). Therefore, I cannot provide the full step-by-step procedure for the Galaxy A57 5G.
+
+I couldn't find enough information in the provided documents.",
+Q03,Power,How do I force restart a frozen Galaxy A57 5G?,Press and hold the Side button and Volume Down simultaneously for more than seven seconds,Galaxy A57 5G,14,Answerable,Correct steps and matching source citation,5,5,Galaxy A57 5G; Galaxy S26 Ultra; Galaxy Z Flip7,5; 15; 177; 132; 21,0.83135575,"To force restart a frozen and unresponsive Galaxy A57 5G, press and hold the Side button and the Volume Down button simultaneously for more than 7 seconds.
+
+Sources:
+- Galaxy A57 5G — Page 15
+- Galaxy A57 5G — Page 132",
+Q04,Charging,How do I enable fast charging on the Galaxy A57 5G?,Check the manual's charging settings instructions and report only the documented steps,Galaxy A57 5G,VERIFY,Answerable,Manual supports the answer and citation,5,5,Galaxy A57 5G; Galaxy Z Flip7; Galaxy Z Fold8 Ultra,5; 14; 10; 16; 6,0.81909233,"To enable or check fast charging on the Galaxy A57 5G, use a super fast charger or fast charger. You can check the connection status of the charger by opening Settings and tapping Battery. 
+
+If fast charging does not work:
+1. Open Settings.
+2. Tap Battery → Charging settings.
+3. Check if the feature you want is turned on.
+4. Also check if the USB cable and the USB power adapter are connected properly.
+
+Additionally, you can charge the battery more quickly while the device or its screen is turned off.
+
+Sources:
+- Galaxy A57 5G — Page 10",
+Q05,Data transfer,How do I transfer data from an old phone to the Galaxy A57 5G?,Use Samsung Smart Switch and follow the manual instructions for transferring data,Galaxy A57 5G,17,Answerable,Correct procedure and matching source citation,5,5,Galaxy A57 5G; Galaxy S25 Ultra; Galaxy S26 Ultra; Galaxy Z Fold8 Ultra,23; 17; 5; 31; 23,0.8303194,"To transfer data from a previous device to the Galaxy A57 5G using Smart Switch:
+
+1. Open **Settings**.
+2. Tap **Accounts and backup** → **Transfer data for device setup**.
+3. Follow the on-screen instructions to complete the transfer either wirelessly or using a USB cable. You can also transfer data from an external storage device or a computer.
+
+Sources:
+- Galaxy A57 5G — Page 17",
+Q06,Wi-Fi,How do I connect the Galaxy A57 5G to Wi-Fi?,Open Settings and Wi-Fi choose a network and follow the connection prompts,Galaxy A57 5G,81,Answerable,Correct procedure and matching source citation,5,5,Galaxy A57 5G; Galaxy Z Flip7,5; 6; 7; 109; 12,0.83223,I couldn't find enough information in the provided documents.,
+Q07,Battery,Where can I find battery settings on the Galaxy A57 5G?,Open Settings and select Battery,Galaxy A57 5G,96,Answerable,Correct location and matching source citation,5,5,Galaxy A57 5G; Galaxy Z Flip7; Galaxy Z Fold8 Ultra; One Plus 9,5; 53; 92; 6; 125,0.8255083,I couldn't find enough information in the provided documents.,
+Q08,Security,Where does the Galaxy A57 5G manual explain fingerprint recognition?,The manual lists fingerprint recognition in the Security and privacy section,Galaxy A57 5G,103,Answerable,Correct section and matching source citation,5,5,Galaxy A57 5G; Galaxy Z Flip7,5; 6; 133; 3; 7,0.837688,"Based on the Table of Contents in the Galaxy A57 5G manual, fingerprint recognition is explained on page 103 under ""Security and privacy"". 
+
+Sources:
+- Galaxy A57 5G — Page 3",
+Q09,Updates,Where can I check for a software update on the Galaxy A57 5G?,Open Settings and select Software update,Galaxy A57 5G,121,Answerable,Correct location and matching source citation,5,5,Galaxy A57 5G; Galaxy S25 Ultra; Galaxy S26 Ultra; Galaxy Z Flip7; Galaxy Z Fold8 Ultra,5; 106; 157; 169; 150,0.8183646,I couldn't find enough information in the provided documents.,
+Q10,Screen recording,How do I record the screen on the Galaxy A57 5G?,Use the documented Screen capture and screen record instructions,Galaxy A57 5G,29,Answerable,Correct procedure and matching source citation,5,5,Galaxy A57 5G; Galaxy S25 Ultra; Galaxy S26 Ultra; Galaxy Z Flip7,5; 40; 43; 42; 35,0.8337306,I couldn't find enough information in the provided documents.,
+Q11,Screenshot,How do I take a screenshot on the Galaxy Z Fold8 Ultra?,Press the Side button and Volume Down simultaneously,Galaxy Z Fold8 Ultra,12,Answerable,Correct steps and matching source citation,5,5,Galaxy A57 5G; Galaxy S26 Ultra; Galaxy Z Flip7; Galaxy Z Fold8 Ultra; motorola-edge-70-pro-plus,54; 63; 28; 39; 34,0.8308767,I couldn't find enough information in the provided documents.,
+Q12,Multitasking,Where does the Galaxy Z Fold8 Ultra manual explain using multiple apps at once?,Open the Multi window section,Galaxy Z Fold8 Ultra,66,Answerable,Correct section and matching source citation,5,5,Galaxy S26 Ultra; Galaxy Z Flip7; Galaxy Z Fold8 Ultra,66; 67; 87; 24; 85,0.843791,"The Galaxy Z Fold8 Ultra manual explains using multiple apps at once (Multi window) on pages 66 and 67. 
+
+Sources:
+- Galaxy Z Fold8 Ultra — Page 66
+- Galaxy Z Fold8 Ultra — Page 67",
+Q13,Wi-Fi,Which section explains Wi-Fi settings on the Galaxy Z Fold8 Ultra?,The Wi-Fi section under Connections,Galaxy Z Fold8 Ultra,84,Answerable,Correct section and matching source citation,5,5,Galaxy Z Flip7; Galaxy Z Fold8 Ultra; One Plus 8,3; 2; 3; 24; 3,0.8142323,"Wi-Fi settings on the Galaxy Z Fold8 Ultra are explained in the section starting on page 84.
+
+Sources:
+- Galaxy Z Fold8 Ultra — Page 3",
+Q14,SIM,Where does the Galaxy Z Fold8 Ultra manual explain nano-SIM and eSIM?,The Nano-SIM card and eSIM section,Galaxy Z Fold8 Ultra,18,Answerable,Correct section and matching source citation,5,5,Galaxy S25 Ultra; Galaxy S26 Ultra; Galaxy Z Flip7; Galaxy Z Fold8 Ultra,18; 19; 18; 25; 18,0.88709676,"The Galaxy Z Fold8 Ultra manual explains nano-SIM and eSIM starting on page 18 under the ""Getting started"" section. It covers inserting a nano-SIM card or downloading a carrier-provided eSIM, notes that an eSIM is an embedded digital SIM, and explains that downloading another eSIM allows for two phone numbers or carriers on a single device. It also provides notes regarding eSIM availability by region, carrier, or model, network-dependent services, and potential data transfer speed impacts when using both a nano-SIM and an eSIM or two eSIMs. Instructions for inserting the nano-SIM card continue onto page 19.
+
+Sources:
+- Galaxy Z Fold8 Ultra — Page 18
+- Galaxy Z Fold8 Ultra — Page 19",
+Q15,Security,Where does the Galaxy Z Fold8 Ultra manual explain fingerprint recognition?,The Fingerprint recognition section under Security and privacy,Galaxy Z Fold8 Ultra,97,Answerable,Correct section and matching source citation,5,5,Galaxy S25 Ultra; Galaxy Z Flip7; Galaxy Z Fold8 Ultra,4; 6; 2; 133; 152,0.82967377,"The Galaxy Z Fold8 Ultra manual explains the physical location of the fingerprint recognition sensor under ""Device layout and functions,"" noting that it is located on the Side button (Galaxy Z Fold8 Ultra, Page 4). 
+
+However, the provided documents do not explain the setup or usage instructions for fingerprint recognition specifically within the Galaxy Z Fold8 Ultra manual; instructions for unlocking the screen with fingerprints are found in other device manuals (Galaxy Z Flip7 and Galaxy S25 Ultra).
+
+Sources:
+- Galaxy Z Fold8 Ultra — Page 4",
+Q16,Screenshot,How do I take a screenshot on the Motorola Edge 50?,Use the documented screenshot procedure in Capture your screen,Motorola Edge 50,47,Answerable,Correct steps and matching source citation,5,5,motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus; motorola-signature,3; 63; 57; 58; 62,0.8274164,"To take a screenshot on the Motorola Edge 50, you can use any of the following methods while on the screen you want to capture:
+
+* Touch & hold three fingers on the screen (if this doesn't work, turn ""Three-finger screenshot"" on).
+* Open Quick settings and tap the screenshot icon.
+* Drag from the bottom of the screen and hold to see recent apps, then tap the screenshot icon.
+* Press and hold the power and Volume down buttons simultaneously until the screen is captured.
+
+To scroll and capture more content, tap the scroll icon (and tap STOP or the stop icon to stop scrolling before the end of the page). Afterward, you can choose to share the screenshot, edit it, delete it, or use a recommended app.
+
+Sources:
+- motorola-edge-50 — Page 57",
+Q17,SIM,How do I insert a SIM card into the Motorola Edge 50?,Insert the SIM tool into the tray hole place the card with gold contacts up and push the tray back in,Motorola Edge 50,4,Answerable,Correct steps and matching source citation,5,5,motorola-edge-50; motorola-edge-70-pro-plus; motorola-signature,14; 15; 14; 14; 15,0.80615866,"To insert a physical SIM card into the Motorola Edge 50:
+
+1. Insert the SIM tool into the tray hole and gently push to pop it out.
+2. Insert the card with the gold contacts facing up.
+3. Push the tray back into the phone.
+
+Sources:
+- motorola-edge-50 — Page 14",
+Q18,Data transfer,How do I copy data from an old phone to the Motorola Edge 50?,Follow the manual procedure for copying data from the old phone,Motorola Edge 50,6,Answerable,Correct procedure and matching source citation,5,5,motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus; motorola-signature,18; 17; 18; 17; 17,0.82912195,"To copy data from an old phone to your new phone:
+
+1. Insert your SIM card to connect to the mobile network (or tap Skip) (Source 2 — Page 17).
+2. Connect to a Wi-Fi network and tap Next (Source 2 — Page 17).
+3. Follow the onscreen instructions to select the old phone or the backup associated with your Google account, and choose which apps and data you want to copy (Source 2 — Page 17).
+4. Ensure ""Back up to Google Drive"" is turned on, and merge any duplicate contacts after the migration (Source 2 — Page 17).
+
+Sources:
+- motorola-edge-50 — Page 17",
+Q19,Wi-Fi,How do I connect the Motorola Edge 50 to a Wi-Fi network?,Open Settings then Network and Internet then Wi-Fi and choose a network,Motorola Edge 50,166,Answerable,Correct steps and matching source citation,5,5,One Plus 8; One Plus 9; motorola-edge-60; motorola-edge-70-pro-plus; motorola-signature,33; 30; 178; 186; 181,0.7955287,I couldn't find enough information in the provided documents.,
+Q20,Battery,How do I turn on Battery Saver on the Motorola Edge 50?,Open Quick Settings and tap Battery Saver,Motorola Edge 50,267,Answerable,Correct steps and matching source citation,5,5,motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus; motorola-signature,290; 7; 285; 278; 280,0.81672496,"To turn on Battery Saver manually on the Motorola Edge 50, open quick settings and tap the Battery Saver icon. 
+
+You can also set it to turn on automatically:
+1. Open quick settings, then touch & hold the Battery Saver icon.
+2. Tap **Schedule and reminders**.
+3. To specify a percentage:
+   a. Turn **Set default battery level** on.
+   b. Move the slider to adjust the percentage when Battery Saver switches on.
+4. To let AI limit background apps, turn **Reduce battery drain when inactive** on.
+
+*(Note: Battery Saver turns off while your phone is charging and turns back on when you unplug the phone.)*
+
+Sources:
+- motorola-edge-50 — Page 278",
+Q21,Battery,What settings can help extend battery life on the Motorola Edge 50?,Use the documented battery-saving options such as Adaptive Battery and Battery Saver,Motorola Edge 50,264,Answerable,Recommendations supported by manual,5,5,One Plus 9; motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus; motorola-signature,7; 53; 280; 285; 275,0.8139205,"To extend battery life, you can adjust the following settings and habits:
+
+* **Connections:** Turn off Bluetooth and GPS when you are not using them.
+* **Wi-Fi:** Turn on Wi-Fi when the phone is in a location with Wi-Fi coverage.
+* **Screen:** Turn down screen brightness, change to the Dark theme, and set a shorter screen timeout.
+* **Sync:** Turn off automatic syncing for all accounts if you don't need it.
+* **Battery Saver:** Use Battery Saver mode to temporarily conserve power when the battery is low.
+* **Activities to avoid:** Avoid battery-intensive activities such as recording or watching videos, listening to music, taking pictures, and using live (animated) wallpaper.
+
+Sources:
+- motorola-edge-70-pro-plus — Page 280
+- motorola-signature — Page 285
+- motorola-edge-60 — Page 275",
+Q22,Troubleshooting,What should I do if the Motorola Edge 50 will not turn on?,Consult the Phone won't turn on troubleshooting section,Motorola Edge 50,336,Answerable,Advice grounded in cited troubleshooting section,5,5,Galaxy A57 5G; motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus; motorola-signature,346; 354; 358; 348; 131,0.8195998,"If your Motorola Edge 50 will not turn on, isn't starting, has a black or blank screen, or turns on and immediately turns off, you should try the following steps:
+
+1. Press and hold the Power button for 5-7 seconds (or up to 30 seconds) to restart or reboot your phone.
+2. Charge the phone. Look for a white light near the top front of the phone, which indicates that it is charging but the battery is too low to power the screen. If you experience charging problems, try charging troubleshooting steps.
+3. If you plugged your phone in to charge and do not see a battery icon, the issue might be with your screen. Call the phone from another phone to check if it rings; if it rings, the issue is with your screen, and you can try screen troubleshooting steps.
+
+Sources:
+- motorola-edge-50 — Page 346",
+Q23,Connectivity,How do I connect Bluetooth devices to the Motorola Edge 50?,Open Settings and Connected devices then Bluetooth and follow the pairing instructions,Motorola Edge 50,179,Answerable,Correct procedure and matching source citation,5,5,motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus; motorola-signature,191; 194; 198; 189; 9,0.79681563,"To connect Bluetooth devices to your phone, follow these steps to pair a new device:
+
+1. Set the device you want to pair (such as an accessory, computer, or another phone) to Bluetooth discovery mode according to the manufacturer's instructions.
+2. On your phone, go to **Settings > Connected devices**.
+3. Tap the option to proceed (note: the documents do not specify the exact final step beyond tapping).
+
+You can also turn Bluetooth on or off by opening **Quick settings** and tapping the switch icon.
+
+Sources:
+- motorola-edge-50 — Page 189",
+Q24,Security,Where does the Motorola Edge 50 explain fingerprint security?,Open Security and privacy then Use fingerprint security,Motorola Edge 50,297,Answerable,Correct section and matching source citation,5,5,motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus; motorola-signature,315; 319; 307; 309; 8,0.8149696,"The Motorola Edge 50 explains how to use and set up fingerprint security on page 307. It also lists ""Use fingerprint security"" on page 8 in the contents under security options. 
+
+To set up fingerprint security:
+1. Go to Settings > Security and privacy.
+2. Tap Device unlock > Face and fingerprint unlock.
+3. Tap Fingerprint, then unlock your phone.
+4. Follow the on-screen instructions to scan your fingerprint.
+
+Sources:
+- motorola-edge-50 — Page 8
+- motorola-edge-50 — Page 307",
+Q25,SIM,How do I insert a SIM card into the OnePlus 8?,Use the SIM ejector to remove the tray place the nano SIM in the tray and reinsert it,One Plus 8,13,Answerable,Correct steps and matching source citation,5,5,One Plus 8; One Plus 9,13; 1; 11; 20; 3,0.87223244,"To insert a SIM card into the OnePlus 8, follow these steps:
+
+1. Insert the SIM Tray Ejector into the small hole on the SIM card holder, pressing it firmly to push the SIM card tray out.
+2. Slowly pull the SIM card tray out of the tray slot.
+3. Place the SIM card into the SIM card tray (note: use the original Nano-SIM card, as non-original cards may cause damage).
+4. Plug the SIM card tray back into your device.
+
+Sources:
+- One Plus 8 — Page 13",
+Q26,Wi-Fi,How do I connect the OnePlus 8 to a password-protected Wi-Fi network?,Open Settings then Wi-Fi and internet then Wi-Fi select the network enter its password and connect,One Plus 8,33,Answerable,Correct steps and matching source citation,5,5,One Plus 8; motorola-edge-60; motorola-signature,1; 3; 33; 178; 186,0.83426917,"To connect the OnePlus 8 to an encrypted (password-protected) Wi-Fi network, follow these steps:
+
+1. Go to **Settings > Wi-Fi & internet**, and tap **Wi-Fi**.
+2. Select the Wi-Fi network from the list.
+3. Enter the password and tap **CONNECT**.
+
+Sources:
+- One Plus 8 — Page 33",
+Q27,Power,How do I turn on the OnePlus 8?,Press and hold the power button for a few seconds,One Plus 8,13,Answerable,Correct instruction and matching source citation,5,5,One Plus 8; One Plus 9,1; 13; 20; 3; 17,0.8868582,"To turn on (boot up) the OnePlus 8, press and hold the power button for a few seconds. If the phone does not power on, you may need to charge it.
+
+Sources:
+- One Plus 8 — Page 13",
+Q28,Power,How do I take a screenshot on the OnePlus 8?,Press and hold the power button and Volume Down simultaneously,One Plus 8,17,Answerable,Correct steps and matching source citation,5,5,One Plus 8; motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus; motorola-signature,1; 57; 58; 62; 63,0.8540267,I couldn't find enough information in the provided documents.,
+Q29,Battery,What can I do to reduce battery consumption on the OnePlus 8?,Turn off the screen when unused enable Battery Saver when the battery is low disable unused Bluetooth and Wi-Fi dim the screen and shorten screen timeout,One Plus 8,14,Answerable,Advice supported by manual,5,5,One Plus 8; One Plus 9,1; 15; 13; 14; 12,0.84895366,"To reduce battery consumption on the OnePlus 8, you can do the following:
+
+1. Turn off the screen when the device is not in use.
+2. Turn on Battery Saver mode when the battery is low.
+3. Disable Bluetooth and Wi-Fi when you are not using them.
+4. Dim screen brightness and shorten sleep time in Settings.
+5. Delete apps that you do not use.
+
+Sources:
+- One Plus 8 — Page 15",
+Q30,Power,How do I restart a OnePlus 9?,Use the power button to open the power menu and select Restart,One Plus 9,12,Answerable,Correct procedure and matching source citation,5,5,One Plus 8; One Plus 9,94; 90; 1; 93; 20,0.8386912,"To restart or force reboot a OnePlus 9, you can use the following two ways when the device is powered on:
+
+1. Press the power button and volume up button simultaneously, and then tap ""Restart"" to reboot the device.
+2. Long press the power button and volume up button for 10 seconds until the phone shuts down, and then press the power button to turn the device on again.
+
+Sources:
+- One Plus 9 — Page 90",
+Q31,Wi-Fi,How do I connect the OnePlus 9 to a Wi-Fi network?,Open Settings then Wi-Fi and Network then Wi-Fi and choose the network,One Plus 9,29,Answerable,Correct procedure and matching source citation,5,5,One Plus 8; One Plus 9,2; 1; 20; 30; 10,0.82252944,"To connect the OnePlus 9 to a Wi-Fi network, follow these steps:
+
+1. Go to **Settings > Wi-Fi & network**, and tap **Wi-Fi** (One Plus 9, p. 30).
+2. Select a Wi-Fi network from the list (One Plus 9, p. 30).
+3. For an unencrypted network, you will connect automatically. For an encrypted network, enter the password and tap **CONNECT** (One Plus 9, p. 30). 
+*(Note: You can also manually add a Wi-Fi network by selecting ""Add networks"".)* (One Plus 9, p. 30)
+
+Sources:
+- One Plus 9 — Page 30",
+Q32,SIM,How do I insert a SIM card into the OnePlus 9?,Remove the SIM tray with the ejector place the SIM in the tray and reinsert it,One Plus 9,10,Answerable,Correct steps and matching source citation,5,5,One Plus 8; One Plus 9; motorola-edge-50; motorola-signature,11; 13; 1; 14; 14,0.8550727,"To insert a SIM card into the OnePlus 9, follow these steps:
+
+1. Insert the SIM Tray Ejector into the small hole on the SIM card holder, pressing it firmly to push the SIM card tray out.
+2. Slowly pull the SIM card tray out of the tray slot.
+3. Place the SIM card into the SIM card tray (note that you should use an original Nano-SIM card to avoid potential damage).
+4. Plug the SIM card tray back into your device.
+
+Sources:
+- One Plus 9 — Page 11",
+Q33,Model specificity,Does the Galaxy A57 5G manual say that the OnePlus 8 uses Warp Charge 30T?,The Galaxy A57 5G manual does not establish charging specifications for the OnePlus 8,Galaxy A57 5G,,Unanswerable,Must not present unsupported cross-model claims,5,5,Galaxy A57 5G; Galaxy Z Fold8 Ultra; One Plus 8,1; 114; 111; 5; 3,0.80298764,I couldn't find enough information in the provided documents.,
+Q34,Unsupported specification,What is the exact battery capacity in mAh of the Motorola Edge 50?,If the manual does not state the exact capacity the assistant must say it cannot verify it from this manual,Motorola Edge 50,,Unanswerable,No invented capacity and clear limitation,5,5,One Plus 9; motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus,7; 10; 7; 7; 10,0.7830919,I couldn't find enough information in the provided documents.,
+Q35,Unsupported price,What was the launch price of the Galaxy S26 Ultra in India?,The user guide does not establish the launch price,Galaxy S26 Ultra,,Unanswerable,Must not invent a price or pretend the manual contains it,5,5,Galaxy S26 Ultra,162; 5; 1; 2; 7,0.76559734,I couldn't find enough information in the provided documents.,
+Q36,Unsupported date,On what exact date will the Galaxy A57 5G receive its next major Android update?,The manual does not establish the exact future update date,Galaxy A57 5G,,Unanswerable,Must acknowledge that the date is not documented,5,5,Galaxy A57 5G; motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus,5; 1; 381; 388; 384,0.79399854,I couldn't find enough information in the provided documents.,
+Q37,Unsupported diagnosis,My phone fell into seawater and will not turn on; what exact component has failed?,The manual cannot determine the failed component from this description alone,Motorola Edge 50,,Unanswerable,Must not invent a hardware diagnosis,5,5,Galaxy A57 5G; motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus; motorola-signature,346; 354; 358; 348; 131,0.7657807,I couldn't find enough information in the provided documents.,
+Q38,Missing source,What is the Wi-Fi password for my home router?,The phone manual does not contain the user's personal router password,None,,Unanswerable,Must say the password is not available in the supplied documents,5,5,Galaxy A57 5G; Galaxy S26 Ultra; Galaxy Z Flip7; One Plus 9,109; 116; 10; 81; 109,0.78161085,I couldn't find enough information in the provided documents.,
+Q39,Missing source,What is my phone's current battery health percentage?,The manual cannot provide the current live battery health of the user's device,None,,Unanswerable,Must not fabricate a live device reading,5,5,motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus; motorola-signature,273; 279; 274; 284; 292,0.84486616,"The provided documents do not state your phone's current battery health percentage. However, you can check your battery health by going to `Settings > Battery > Battery info` (though this feature is not available in all countries).
+
+Sources:
+- motorola-edge-50 — Page 273
+- motorola-edge-70-pro-plus — Page 279
+- motorola-edge-60 — Page 274
+- motorola-signature — Page 284",
+Q40,Missing source,Will my specific phone repair be completed tomorrow by the service centre?,The manuals do not establish the status or completion time of an individual repair,None,,Unanswerable,Must explain that individual repair status is unavailable,5,5,One Plus 9; motorola-edge-50; motorola-edge-60; motorola-edge-70-pro-plus; motorola-signature,1; 1; 1; 1; 122,0.7623383,I couldn't find enough information in the provided documents.,
